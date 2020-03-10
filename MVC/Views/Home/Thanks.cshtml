@@ -1,0 +1,12 @@
+﻿@using System.Diagnostics.Eventing.Reader
+@model BlackLight.Recruitment.MVC.Models.ThanksViewModel
+
+
+@if(Model.CorrectName)
+{
+<p>Thanks for contacting us, Oin son of Groin, we'll get back to you soon.</p>
+}
+else
+{
+<p>You are not Thorin!, @Model.Name we will not get back to you!.</p>
+}
